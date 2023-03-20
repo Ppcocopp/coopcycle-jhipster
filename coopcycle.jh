@@ -1,0 +1,51 @@
+// ------------------ JDL ---------------------
+
+entity User {
+    firstName String minlength(3) maxlength(50) required
+    lastName String minlength(3) maxlength(50) required
+    mail String pattern(/^([a-z]+,)*[a-z]+$/) maxlength(50) required unique
+    password String minlength(10) required
+    language String
+    profileImage ImageBlob minbytes(1024) maxbytes(5242880)
+}
+
+entity Customer {
+    adress String required
+    balance BigDecimal required
+    phone String unique
+}
+
+entity Pro {
+    description String
+}
+
+entity Company {
+    adress String required
+    image ImageBlob minbytes(1024) maxbytes(5242880)
+    website String
+    description String
+    name String minlength(2) unique
+}
+
+entity Food {
+    mealName String minlength(3) required
+    price BigDecimal min(0) required
+    decription String
+    image ImageBlob minbytes(1024) maxbytes(5242880)
+}
+
+// --------------- Associations -----------------
+
+relationship OneToOne {
+    Customer{mail required} to User
+    Pro{mail required} to User
+}
+
+relationship ManyToOne {
+	Company{mail required} to Pro
+    Food{name required} to Company
+}
+
+// --------------- DTO -----------------
+
+dto * with mapstruct
