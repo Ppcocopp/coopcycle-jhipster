@@ -1,0 +1,25 @@
+{
+  "blogApp": {
+    "pro": {
+      "home": {
+        "title": "Pros",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Genera un nuovo Pro",
+        "createOrEditLabel": "Genera o modifica un Pro",
+        "notFound": "No Pros found"
+      },
+      "created": "&Egrave; stato generato un nuovo Pro con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Pro identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Pro con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Pro {{ id }}?"
+      },
+      "detail": {
+        "title": "Pro"
+      },
+      "id": "ID",
+      "description": "Description",
+      "mail": "Mail"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "blogApp": {
+    "company": {
+      "home": {
+        "title": "Companies",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Genera un nuovo Company",
+        "createOrEditLabel": "Genera o modifica un Company",
+        "notFound": "No Companies found"
+      },
+      "created": "&Egrave; stato generato un nuovo Company con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Company identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Company con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Company {{ id }}?"
+      },
+      "detail": {
+        "title": "Company"
+      },
+      "id": "ID",
+      "adress": "Adress",
+      "image": "Image",
+      "website": "Website",
+      "description": "Description",
+      "name": "Name",
+      "mail": "Mail"
+    }
+  }
+}

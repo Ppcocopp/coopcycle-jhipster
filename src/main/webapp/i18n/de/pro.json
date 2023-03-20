@@ -1,0 +1,25 @@
+{
+  "blogApp": {
+    "pro": {
+      "home": {
+        "title": "Pros",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Pro erstellen",
+        "createOrEditLabel": "Pro erstellen oder bearbeiten",
+        "notFound": "Keine Pros gefunden"
+      },
+      "created": "Pro erstellt mit ID {{ param }}",
+      "updated": "Pro aktualisiert mit ID {{ param }}",
+      "deleted": "Pro gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Pro {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Pro"
+      },
+      "id": "ID",
+      "description": "Description",
+      "mail": "Mail"
+    }
+  }
+}

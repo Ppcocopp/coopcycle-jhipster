@@ -1,0 +1,25 @@
+{
+  "blogApp": {
+    "pro": {
+      "home": {
+        "title": "Pros",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Luo Pro",
+        "createOrEditLabel": "Luo tai muokkaa Pro",
+        "notFound": "Pro ei löytynyt"
+      },
+      "created": "Uusi Pro on luotu, id: {{ param }}",
+      "updated": "Pro on päivitetty, id: {{ param }}",
+      "deleted": "Pro on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Pro {{ id }}?"
+      },
+      "detail": {
+        "title": "Pro"
+      },
+      "id": "ID",
+      "description": "Description",
+      "mail": "Mail"
+    }
+  }
+}

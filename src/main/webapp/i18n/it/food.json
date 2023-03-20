@@ -1,0 +1,28 @@
+{
+  "blogApp": {
+    "food": {
+      "home": {
+        "title": "Foods",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Genera un nuovo Food",
+        "createOrEditLabel": "Genera o modifica un Food",
+        "notFound": "No Foods found"
+      },
+      "created": "&Egrave; stato generato un nuovo Food con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Food identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Food con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Food {{ id }}?"
+      },
+      "detail": {
+        "title": "Food"
+      },
+      "id": "ID",
+      "mealName": "Meal Name",
+      "price": "Price",
+      "decription": "Decription",
+      "image": "Image",
+      "name": "Name"
+    }
+  }
+}

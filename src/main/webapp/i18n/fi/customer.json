@@ -1,0 +1,27 @@
+{
+  "blogApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Luo Customer",
+        "createOrEditLabel": "Luo tai muokkaa Customer",
+        "notFound": "Customer ei löytynyt"
+      },
+      "created": "Uusi Customer on luotu, id: {{ param }}",
+      "updated": "Customer on päivitetty, id: {{ param }}",
+      "deleted": "Customer on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Customer {{ id }}?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "adress": "Adress",
+      "balance": "Balance",
+      "phone": "Phone",
+      "mail": "Mail"
+    }
+  }
+}

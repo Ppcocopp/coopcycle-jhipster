@@ -1,0 +1,28 @@
+{
+  "blogApp": {
+    "food": {
+      "home": {
+        "title": "Foods",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Food erstellen",
+        "createOrEditLabel": "Food erstellen oder bearbeiten",
+        "notFound": "Keine Foods gefunden"
+      },
+      "created": "Food erstellt mit ID {{ param }}",
+      "updated": "Food aktualisiert mit ID {{ param }}",
+      "deleted": "Food gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Food {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Food"
+      },
+      "id": "ID",
+      "mealName": "Meal Name",
+      "price": "Price",
+      "decription": "Decription",
+      "image": "Image",
+      "name": "Name"
+    }
+  }
+}

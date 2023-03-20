@@ -1,0 +1,28 @@
+{
+  "blogApp": {
+    "food": {
+      "home": {
+        "title": "Foods",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Luo Food",
+        "createOrEditLabel": "Luo tai muokkaa Food",
+        "notFound": "Food ei löytynyt"
+      },
+      "created": "Uusi Food on luotu, id: {{ param }}",
+      "updated": "Food on päivitetty, id: {{ param }}",
+      "deleted": "Food on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Food {{ id }}?"
+      },
+      "detail": {
+        "title": "Food"
+      },
+      "id": "ID",
+      "mealName": "Meal Name",
+      "price": "Price",
+      "decription": "Decription",
+      "image": "Image",
+      "name": "Name"
+    }
+  }
+}
